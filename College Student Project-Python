@@ -1,0 +1,23 @@
+print("Hello Student")
+print("what is your name?:")
+user_name = input()
+print(user_name + " What school do you go to?: ")
+user_school = input()
+
+if user_school == "FHSU":
+    
+    print("WOW")
+else:
+    print("Ok,that's nice")
+print( user_name + " How many classes do you take a semester?:")
+user_classes = int(input())
+if user_classes > 2:
+    print("Wow!, that's hard to manage.")
+else:
+    print("Ok,that's not a lot of classes.")
+total_years = 4
+current_year = int(input("Enter your current year in college (1-4): "))
+years_until_graduation = total_years - current_year
+print(f"You have {years_until_graduation} year(s) until graduation!")
+
+print ("Good luck in your college journey!")
